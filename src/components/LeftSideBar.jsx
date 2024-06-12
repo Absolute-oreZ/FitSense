@@ -60,7 +60,7 @@ const LeftSideBar = ({ onSignOut }) => {
               <p className="body-bold text-light-2">
                 {currentUser.displayName}
               </p>
-              <p className="small-regular text-light-3">{currentUser.email}</p>
+              <p className="tiny-medium overflow-x-hidden text-light-3">{currentUser.email}</p>
             </div>
           </Link>
         ) : (

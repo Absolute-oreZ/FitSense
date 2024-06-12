@@ -126,7 +126,7 @@
 
   /* Left sidebar */
   .leftsidebar {
-    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] h-screen bg-dark-2 fixed;
+    @apply hidden md:flex px-6 py-10 flex-col justify-between max-w-[270px] h-screen bg-dark-2 fixed;
   }
 
   .leftsidebar-link {

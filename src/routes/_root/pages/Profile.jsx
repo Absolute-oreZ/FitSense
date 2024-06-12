@@ -25,7 +25,7 @@ const Profile = () => {
     // Redirect based on the clicked item's text
     switch (text) {
       case "About App":
-        window.open("/about", "_blank");
+        window.open("https://github.com/Absolute-oreZ/FitSense", "_blank");
         break;
       case "Terms & Conditions":
         window.open("UserAgreement.html", "_blank");
