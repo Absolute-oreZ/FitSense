@@ -1,0 +1,37 @@
+/* ant-custom-dark.css */
+.dark .login-form {
+    background-color: #1F1F22; /* dark:bg-gray-800 */
+    color: #ffffff; 
+  }
+  
+  .dark .ant-input,
+  .dark .ant-input-password {
+    background-color: #ffffff; /* dark:bg-gray-700 */
+    color: #1F1F22; /* dark:text-white */
+    border-color: #4b5563; /* dark:border-gray-600 */
+  }
+  
+  .dark .ant-checkbox-wrapper .ant-checkbox + span {
+    color: #ffffff; /* dark:text-white */
+  }
+  
+  .dark .ant-btn-primary {
+    background-color: #fb7185; /* dark:bg-rose-500 */
+    border-color: #fb7185; /* dark:border-rose-500 */
+  }
+  
+  .dark .ant-btn-primary:hover,
+  .dark .ant-btn-primary:focus {
+    background-color: #f43f5e; /* dark:hover:bg-rose-600 */
+    border-color: #f43f5e; /* dark:hover:border-rose-600 */
+  }
+  
+  .dark .ant-form-item-explain,
+  .dark .ant-form-item-extra {
+    color: #9ca3af; /* dark:text-gray-400 */
+  }
+  
+  .dark .login-form-forgot {
+    color: #60a5fa; /* dark:text-blue-400 */
+  }
+  
