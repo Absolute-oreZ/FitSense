@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "react-toastify/dist/ReactToastify.css";
 
 import {
@@ -19,6 +19,7 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import { auth } from "./lib/firebase/config";
 import { signOut } from "./lib/firebase/api";
+import { Spin } from "antd";
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -68,7 +69,7 @@ export default function App() {
   if (isLoading) {
     return (
       <div className="flex justify-center items-center h-screen">
-        Loading...
+        <Spin />
       </div>
     );
   }

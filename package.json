@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
-    "@fullcalendar/react": "^6.1.14",
     "@google/generative-ai": "^0.11.4",
     "@googlemaps/js-api-loader": "^1.16.6",
     "@react-oauth/google": "^0.12.1",
@@ -22,7 +21,6 @@
     "axios": "^1.7.2",
     "dayjs": "^1.11.11",
     "firebase": "^10.12.1",
-    "fullcalendar": "^6.1.14",
     "gapi-script": "^1.2.0",
     "google-auth-library": "^9.10.0",
     "google-client-api": "^1.0.4",

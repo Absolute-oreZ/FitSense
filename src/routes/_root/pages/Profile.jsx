@@ -28,10 +28,10 @@ const Profile = () => {
         window.open("https://github.com/Absolute-oreZ/FitSense", "_blank");
         break;
       case "Terms & Conditions":
-        window.open("UserAgreement.html", "_blank");
+        window.open("/UserAgreement.html", "_blank");
         break;
       case "Privacy Policy":
-        window.open("PrivacyPolicy.html", "_blank");
+        window.open("/PrivacyPolicy.html", "_blank");
         break;
       default:
         break;

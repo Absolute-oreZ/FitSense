@@ -11,7 +11,7 @@ import { Input, Select, Button, Card, List, Typography } from "antd";
 import { DeleteOutlined, LoadingOutlined } from "@ant-design/icons";
 
 const { Option } = Select;
-const { Title, Text } = Typography;
+const { Text } = Typography;
 const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
 const Intake = () => {
