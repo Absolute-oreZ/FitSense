@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import run from "../../../lib/geminiAI/config";
 import {
-  FileImageOutlined,
   LoadingOutlined,
   SendOutlined,
 } from "@ant-design/icons";
-import { Input, Spin } from "antd";
+import { Input } from "antd";
 import { getCurrentUser } from "../../../lib/firebase/api";
 import SuggestionQuestion from "../../../components/SuggestionQuestion";
 

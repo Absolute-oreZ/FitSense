@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
+import { Analytics } from "@vercel/analytics/react";
 import "react-toastify/dist/ReactToastify.css";
 
 import {
@@ -12,7 +13,7 @@ import {
   Profile,
   Plans,
   Activity,
-  Intake
+  Intake,
 } from "./routes/index";
 import { ToastContainer, toast } from "react-toastify";
 import { auth } from "./lib/firebase/config";
@@ -94,6 +95,7 @@ export default function App() {
         </Route>
       </Routes>
       <ToastContainer />
+      <Analytics />
     </div>
   );
 }
