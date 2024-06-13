@@ -91,6 +91,8 @@ const Intake = () => {
           placeholder="Enter food item"
         />
         <Select
+          defaultValue="breakfast"
+          placeholder="Breakfast"
           value={mealType}
           onChange={(value) => setMealType(value)}
           className="flex-1 mb-2 md:mb-0"

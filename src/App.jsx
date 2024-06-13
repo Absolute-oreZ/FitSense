@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "react-toastify/dist/ReactToastify.css";
 
 import {
@@ -96,6 +97,7 @@ export default function App() {
       </Routes>
       <ToastContainer />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
